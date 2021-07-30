@@ -8,6 +8,6 @@ class ContactSerializer(serializers.ModelSerializer):
         model = Contact
         fields = (
                   'name',
-                  'phone',
+                  'phone_number',
                   'published',
                   )
